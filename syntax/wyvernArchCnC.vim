@@ -5,7 +5,7 @@ endif
 syn keyword wyvArchKeyword and is with connect external val port requires provides
 
 syn keyword wyvArchKeyword component connector architecture nextgroup=wyvTypeDef 
-syn keyword wyvArchDecls components connectors attachments entryPoints
+syn keyword wyvArchDecls components connectors attachments entryPoints bindings
 
 syn keyword wyvKeyword def nextgroup=wyvFunction skipwhite
 syn keyword wyvKeyword type nextgroup=wyvTypeDef skipwhite
